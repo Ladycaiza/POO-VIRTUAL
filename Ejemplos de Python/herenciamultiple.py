@@ -22,4 +22,6 @@ class EmpleadoArtista(Persona,Artista):
         self.empresa = empresa
 
     def presentarse(self):
-        print(f'{self.mostrar_habilidad()}')
+        print(f'{super().mostrar_habilidad()}')
+
+        
